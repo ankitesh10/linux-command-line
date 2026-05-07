@@ -1,0 +1,21 @@
+less - >for reading large file, vim type view
+man less -> manual of less
+cat -> just print, not good for large file
+tail -> last 10 line
+head -> first 10 line
+tail -n 3 -> last 3 line
+tail -f -> realtime as things added to file
+
+// create multiple folder, -p
+mkdir -p /cd/home/aa
+
+
+# tar files
+    - It's a file format to combine group of files.
+    - It is bunch of file glob together, meant to be extracted later.
+    - it is called tarball also sometime
+    - tar -cf archive.tar <file_names>
+    - tar -zcf archive.tar.gz <file_names>
+    - x is the flag for extract
+    - tar -xzf archive.tar.gz 
+    - extract in folfer --> tar -xf archive.tar -C <folder_name>
