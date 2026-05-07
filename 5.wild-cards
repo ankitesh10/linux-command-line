@@ -1,0 +1,18 @@
+// wild card to create file
+touch file{1,2,3,4}.txt -> changes to touch file1.txt file2.txt file3.txt file4.txt (this is done by bash)
+touch file{1..30}.text -> 1 to 30
+touch file{a..z}.text 
+touch file\?.txt --> \ is escape
+
+
+// wild card list
+ls file-* -> will match everything and anything
+ls file?.txt -> will match only 1 character
+ls file??.txt -> will match only 2 character
+
+
+#echo
+echo {a..z}
+echo {a..z..10} -> skip every 10
+echo {0..100..10}
+echo {0..10}{a..z}
