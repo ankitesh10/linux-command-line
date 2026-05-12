@@ -1,0 +1,25 @@
+cat ls.txt | grep "ls-error.txt"
+
+    - output of cat will be pipped into grep which grab anything matching string
+    - grep just takes text and find the matching text
+
+ps aux | grep "ps aux"
+
+-------------------------------
+
+yes > dev/null &
+
+  - run yes in background and log to /dev/null
+  - ps aux | grep "yes"
+  - kill -9 209
+
+
+// delete file and pipe yes
+yes y | rm -i file*
+
+
+# Note - ps aux | grep "ps aux" --> this results in to two result
+root       251  0.0  0.0   7632  3632 pts/0    R+   15:38   0:00 ps aux
+root       252  0.0  0.0   3128  1512 pts/0    S+   15:38   0:00 grep --color=auto ps aux
+
+--> second one 

@@ -73,7 +73,7 @@ SIGKILL
 If you want a program to stop and stop now, you can do kill -9 (or kill -SIGKILL) and it will send the SIGKILL 
 which means to the program "don't clean up, just stop as soon as possible.) Again, we'll cover this in a bit.
 
-More signals
+More signals (kill -l)
 There are many signals and I don't know what 10% of them do. If you run kill -l in your terminal, 
 it'll show you all the signals your computer supports. Most of these are used for processes to communicate 
 amongst each other or with the shell, like SIGALRM tell your emulator to make a beep. However only really the 
