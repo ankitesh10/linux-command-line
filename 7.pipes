@@ -22,4 +22,4 @@ yes y | rm -i file*
 root       251  0.0  0.0   7632  3632 pts/0    R+   15:38   0:00 ps aux
 root       252  0.0  0.0   3128  1512 pts/0    S+   15:38   0:00 grep --color=auto ps aux
 
---> second one 
+--> second one if of grep command
