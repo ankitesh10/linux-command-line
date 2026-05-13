@@ -1,0 +1,15 @@
+whoami -> print the user name
+cat /etc/passwd -> list of users
+
+sudo --> super user do (which is root)
+
+
+# Add user 
+sudo useradd ankitesh
+sudo passwd ankitesh
+
+su ankitesh --> switch user
+
+
+// add user to sudo group
+sudo usermod -aG sudo ankitesh
